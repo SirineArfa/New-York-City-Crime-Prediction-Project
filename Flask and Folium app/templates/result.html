@@ -1,0 +1,21 @@
+<h1>Attention! you might encounter the following crime with the highest probability: </h1> 
+      <!--Centered Image Start-->
+      <div style="text-align: center;">
+         <img width="400" src="https://th.bing.com/th/id/R.eb0ae912fa13c67d294b141526f8d7b0?rik=urVGTFoGY2Z7qg&riu=http%3a%2f%2fnycrpd.org%2fwp-content%2fuploads%2f2016%2f04%2fCrime_Alert_Logo750x420_61220152187.jpg&ehk=7CUO1avJO8TR9Mpj4%2fpHN0Jq93vgxHPW%2fZ9HyoQ%2bvOE%3d&risl=&pid=ImgRaw&r=0">
+      </div>
+      <!--Centered Image End-->
+
+<table>
+    <tr>
+      <th>Crime Type</th>
+      <th>Probability</th>
+    </tr>
+    
+{% for key, value in crimes.items()%}
+    <tr>
+      <td>{{key}}</td>
+      <td>{{value}}</td>
+    </tr>
+    
+{% endfor %}
+  </table>
