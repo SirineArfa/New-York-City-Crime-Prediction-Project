@@ -9,7 +9,11 @@ Analysis and prediction of crime in New York City using a Machine Learning appro
 
 #### Contribution
 
-Sirine Arfa
-Zeineb Chebaane 
-Arij Flihi
-Malek Abbes
+
+[Sirine Arfa](https://github.com/SirineArfa)
+
+[Arij Flihi](https://github.com/arige160)
+
+[Zeineb Chebaane](https://github.com/zeinebchebaane)
+
+[Malek Abbes](https://github.com/Malek-1)
